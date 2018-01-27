@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="128">
+	<RootPaths>
+		<ProjectRoot>/Users/marcenciso/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Desktop/GGJ/Read Only Memory_WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/marcenciso/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Desktop/GGJ/Read Only Memory_WwiseProject/.cache/Mac/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/marcenciso/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Desktop/GGJ/Read Only Memory_WwiseProject/GeneratedSoundBanks/Mac/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/marcenciso/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Desktop/GGJ/Read Only Memory_WwiseProject/GeneratedSoundBanks/Mac/</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="769694676" Name="Bird_Forest" ObjectPath="\Events\Default Work Unit\Forest\Bird_Forest"/>
+				<Event Id="2738503529" Name="Wind_Forest" ObjectPath="\Events\Default Work Unit\Forest\Wind_Forest"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="143577458" Language="SFX">
+					<ShortName>Wind_L2.wav</ShortName>
+					<Path>SFX/Wind_L2_1C9C67B2.wem</Path>
+				</File>
+				<File Id="247612962" Language="SFX">
+					<ShortName>Bird_2.wav</ShortName>
+					<Path>SFX/Bird_2_1C9C67B2.wem</Path>
+				</File>
+				<File Id="346003132" Language="SFX">
+					<ShortName>Bird_1.wav</ShortName>
+					<Path>SFX/Bird_1_1C9C67B2.wem</Path>
+				</File>
+				<File Id="770687747" Language="SFX">
+					<ShortName>Bird_3.wav</ShortName>
+					<Path>SFX/Bird_3_1C9C67B2.wem</Path>
+				</File>
+				<File Id="939409944" Language="SFX">
+					<ShortName>Bird_4.wav</ShortName>
+					<Path>SFX/Bird_4_1C9C67B2.wem</Path>
+				</File>
+				<File Id="1059807285" Language="SFX">
+					<ShortName>Wind_L1.wav</ShortName>
+					<Path>SFX/Wind_L1_1C9C67B2.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

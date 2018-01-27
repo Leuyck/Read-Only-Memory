@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{114E559C-8533-435D-9956-98C466BD5B50}" SchemaVersion="85">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{114E559C-8533-435D-9956-98C466BD5B50}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{114E559C-8533-435D-9956-98C466BD5B50}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{56633C64-44C3-409B-9B97-36BD308B40DE}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Wind_Forest" ID="{E4853CBB-71F4-4674-B269-616C5594981F}" WorkUnitID="{4903314C-BBA3-49F4-BE78-4F41E2FA15CE}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Bird_Forest" ID="{D3F292AF-E8CF-4894-96CC-04D7FB36F738}" WorkUnitID="{4903314C-BBA3-49F4-BE78-4F41E2FA15CE}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>

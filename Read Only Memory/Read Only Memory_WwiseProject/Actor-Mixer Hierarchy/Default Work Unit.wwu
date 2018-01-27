@@ -1,6 +1,249 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{64E675AB-9BB3-4603-8006-31087C8D8278}" SchemaVersion="85">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{64E675AB-9BB3-4603-8006-31087C8D8278}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{64E675AB-9BB3-4603-8006-31087C8D8278}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Forest" ID="{0B2A0ABC-CD64-4C06-AFC4-4B07C722A079}" ShortID="236734887">
+					<ChildrenList>
+						<RandomSequenceContainer Name="Wind_Forest" ID="{169C9DD7-77FA-4A51-8FF1-C5463BF1006C}" ShortID="595877831">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="5"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B374F684-EEFA-4418-893F-F60226C5A643}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0C0A03D4-DB76-45CF-92EC-59FC30B1553D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Wind_L1" ID="{486653D4-CF65-4CFF-9352-C091F2A9A563}" ShortID="164742110">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B374F684-EEFA-4418-893F-F60226C5A643}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0C0A03D4-DB76-45CF-92EC-59FC30B1553D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Wind_L1" ID="{C663BACF-5820-48C5-A97B-28AC0EB89BDF}" ShortID="1059807285">
+											<Language>SFX</Language>
+											<AudioFile>Wind_L1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Wind_L1" ID="{C663BACF-5820-48C5-A97B-28AC0EB89BDF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Wind_L2" ID="{4B955A4F-CD20-4E04-8504-73480B934526}" ShortID="202773340">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B374F684-EEFA-4418-893F-F60226C5A643}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0C0A03D4-DB76-45CF-92EC-59FC30B1553D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Wind_L2" ID="{4CD3307F-C671-4C88-A17E-24BB7E68D7AF}" ShortID="143577458">
+											<Language>SFX</Language>
+											<AudioFile>Wind_L2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Wind_L2" ID="{4CD3307F-C671-4C88-A17E-24BB7E68D7AF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<Playlist>
+								<ItemRef Name="Wind_L1" ID="{486653D4-CF65-4CFF-9352-C091F2A9A563}"/>
+								<ItemRef Name="Wind_L2" ID="{4B955A4F-CD20-4E04-8504-73480B934526}"/>
+							</Playlist>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Bird_Forest" ID="{6F55A9D1-0827-499C-BC2C-3A8DF5E1B2CF}" ShortID="898679725">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B374F684-EEFA-4418-893F-F60226C5A643}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0C0A03D4-DB76-45CF-92EC-59FC30B1553D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Bird_1" ID="{5603432A-67D2-4FF2-A571-524114B97058}" ShortID="163838775">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{73107292-3C32-474C-B84B-74E229BC55F5}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="1"/>
+															<Property Name="Min" Type="Real64" Value="-1"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B374F684-EEFA-4418-893F-F60226C5A643}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0C0A03D4-DB76-45CF-92EC-59FC30B1553D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Bird_1" ID="{AD441B75-B6BF-4F31-B6B7-519709E5F844}" ShortID="346003132">
+											<Language>SFX</Language>
+											<AudioFile>Bird_1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Bird_1" ID="{AD441B75-B6BF-4F31-B6B7-519709E5F844}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Bird_2" ID="{C085722C-05D2-4FAA-8E62-8B5E18CD9237}" ShortID="872903542">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{5627E944-11F1-4D18-B3AC-EDBB890CB8F1}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="1"/>
+															<Property Name="Min" Type="Real64" Value="-1"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B374F684-EEFA-4418-893F-F60226C5A643}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0C0A03D4-DB76-45CF-92EC-59FC30B1553D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Bird_2" ID="{7032C7E7-E09C-4F21-9107-8F22C4802ABD}" ShortID="247612962">
+											<Language>SFX</Language>
+											<AudioFile>Bird_2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Bird_2" ID="{7032C7E7-E09C-4F21-9107-8F22C4802ABD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Bird_3" ID="{FD235158-40C7-4994-BA1D-89EDB24C7340}" ShortID="177872389">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{372FA1FE-A8F5-4CFE-B70B-1718842275C7}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="1"/>
+															<Property Name="Min" Type="Real64" Value="-1"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B374F684-EEFA-4418-893F-F60226C5A643}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0C0A03D4-DB76-45CF-92EC-59FC30B1553D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Bird_3" ID="{6A1A803C-0204-4D73-83F2-8454EB189E35}" ShortID="770687747">
+											<Language>SFX</Language>
+											<AudioFile>Bird_3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Bird_3" ID="{6A1A803C-0204-4D73-83F2-8454EB189E35}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Bird_4" ID="{5E7FDA97-65D2-4D18-99E6-236DF4CDF1D4}" ShortID="276352870">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{2C431A2D-A1A8-41A0-B63C-85E2DF72D0CF}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="1"/>
+															<Property Name="Min" Type="Real64" Value="-1"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B374F684-EEFA-4418-893F-F60226C5A643}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0C0A03D4-DB76-45CF-92EC-59FC30B1553D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Bird_4" ID="{41DF3AD3-9DB5-4EFA-9323-313DF1C525CF}" ShortID="939409944">
+											<Language>SFX</Language>
+											<AudioFile>Bird_4.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Bird_4" ID="{41DF3AD3-9DB5-4EFA-9323-313DF1C525CF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<Playlist>
+								<ItemRef Name="Bird_1" ID="{5603432A-67D2-4FF2-A571-524114B97058}"/>
+								<ItemRef Name="Bird_2" ID="{C085722C-05D2-4FAA-8E62-8B5E18CD9237}"/>
+								<ItemRef Name="Bird_3" ID="{FD235158-40C7-4994-BA1D-89EDB24C7340}"/>
+								<ItemRef Name="Bird_4" ID="{5E7FDA97-65D2-4D18-99E6-236DF4CDF1D4}"/>
+							</Playlist>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

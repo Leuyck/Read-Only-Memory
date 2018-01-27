@@ -12,15 +12,104 @@ MonoBehaviour:
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
   CurrentPluginConfig: 
-  EventWwu: []
-  AuxBusWwu: []
-  StateWwu: []
-  SwitchWwu: []
-  BankWwu: []
-  RtpcWwu: []
-  TriggerWwu: []
-  AcousticTextureWwu: []
-  ExpandedItems: []
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{4903314C-BBA3-49F4-BE78-4F41E2FA15CE}'
+    m_lastTimePsrt1: 2033197568
+    m_lastTimePart2: -1999280731
+    List:
+    - Name: Bird_Forest
+      Path: Default Work Unit\Forest\Bird_Forest
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Forest
+        ObjectType: 4
+      - ElementName: Bird_Forest
+        ObjectType: 3
+      ID: 769694676
+      Guid: af92f2d3cfe8944896cc04d7fb36f738
+      minDuration: 0
+      maxDuration: 0
+      maxAttenuation: 0
+    - Name: Wind_Forest
+      Path: Default Work Unit\Forest\Wind_Forest
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Forest
+        ObjectType: 4
+      - ElementName: Wind_Forest
+        ObjectType: 3
+      ID: -1556463767
+      Guid: bb3c85e4f4717446b269616c5594981f
+      minDuration: 0
+      maxDuration: 0
+      maxAttenuation: 0
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{0C0A03D4-DB76-45CF-92EC-59FC30B1553D}'
+    m_lastTimePsrt1: 717707008
+    m_lastTimePart2: -1999280746
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{47770D41-7513-4122-A925-4A5A4E216D0B}'
+    m_lastTimePsrt1: 717707008
+    m_lastTimePart2: -1999280746
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{8C0603DC-4CAF-46E9-B035-ADC6625D7A0B}'
+    m_lastTimePsrt1: 717707008
+    m_lastTimePart2: -1999280746
+    List: []
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{114E559C-8533-435D-9956-98C466BD5B50}'
+    m_lastTimePsrt1: 2033197568
+    m_lastTimePart2: -1999280731
+    List:
+    - Name: Main
+      Path: Default Work Unit\Main
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Main
+        ObjectType: 7
+      ID: -1133058374
+      Guid: 643c6356c3449b409b9736bd308b40de
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{2CEAD2DF-46FC-4AC6-BA06-2BE3EE6601EF}'
+    m_lastTimePsrt1: 717707008
+    m_lastTimePart2: -1999280746
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{4B6E25AB-B837-42C7-976A-9462B824E40C}'
+    m_lastTimePsrt1: 717707008
+    m_lastTimePart2: -1999280746
+    List: []
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{31349FBC-4C74-4945-93FB-836CA25BC96D}'
+    m_lastTimePsrt1: 717707008
+    m_lastTimePart2: -1999280746
+    List: []
+  ExpandedItems:
+  - /Read Only Memory_WwiseProject
+  - /Read Only Memory_WwiseProject/Events
+  - /Read Only Memory_WwiseProject/Events/Default Work Unit
+  - /Read Only Memory_WwiseProject/Events/Default Work Unit/Forest
   m_lastPopulateTimePsrt1: 0
   m_lastPopulateTimePart2: 0
   autoPopulateEnabled: 1

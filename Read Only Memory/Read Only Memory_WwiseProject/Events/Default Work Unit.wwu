@@ -1,6 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{4903314C-BBA3-49F4-BE78-4F41E2FA15CE}" SchemaVersion="85">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{4903314C-BBA3-49F4-BE78-4F41E2FA15CE}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{4903314C-BBA3-49F4-BE78-4F41E2FA15CE}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Forest" ID="{D5CE96DF-5553-458B-9140-91F6BC948C3C}" ShortID="10221245">
+					<ChildrenList>
+						<Event Name="Wind_Forest" ID="{E4853CBB-71F4-4674-B269-616C5594981F}">
+							<ChildrenList>
+								<Action Name="" ID="{296BDE2C-D066-433C-AB01-C8BD93833D8C}" ShortID="927658768">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Wind_Forest" ID="{169C9DD7-77FA-4A51-8FF1-C5463BF1006C}" WorkUnitID="{64E675AB-9BB3-4603-8006-31087C8D8278}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Bird_Forest" ID="{D3F292AF-E8CF-4894-96CC-04D7FB36F738}">
+							<ChildrenList>
+								<Action Name="" ID="{7FD930AA-0D40-4DD1-B98D-768EC5874892}" ShortID="63817553">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Bird_Forest" ID="{6F55A9D1-0827-499C-BC2C-3A8DF5E1B2CF}" WorkUnitID="{64E675AB-9BB3-4603-8006-31087C8D8278}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
