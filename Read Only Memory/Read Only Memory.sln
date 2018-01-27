@@ -1,7 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2015
+# Visual Studio 2017
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Read Only Memory", "Read Only Memory.csproj", "{3D0A05BF-5A7A-BA34-45C8-F0223AF10D1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Read Only Memory.Editor", "Read Only Memory.Editor.csproj", "{CF23A2B7-C0A9-A66C-05CC-71197471D321}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +15,10 @@ Global
 		{3D0A05BF-5A7A-BA34-45C8-F0223AF10D1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D0A05BF-5A7A-BA34-45C8-F0223AF10D1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D0A05BF-5A7A-BA34-45C8-F0223AF10D1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF23A2B7-C0A9-A66C-05CC-71197471D321}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF23A2B7-C0A9-A66C-05CC-71197471D321}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF23A2B7-C0A9-A66C-05CC-71197471D321}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF23A2B7-C0A9-A66C-05CC-71197471D321}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

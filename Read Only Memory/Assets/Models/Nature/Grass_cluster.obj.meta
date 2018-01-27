@@ -1,0 +1,347 @@
+fileFormatVersion: 2
+guid: d4bc40fbad8b59d46929ba1aae42f7ad
+timeCreated: 1517053910
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Plane.001_Plane.030
+    100004: Plane.002_Plane.031
+    100006: Plane.003_Plane.032
+    100008: Plane.004_Plane.033
+    100010: Plane.005_Plane.034
+    100012: Plane.006_Plane.035
+    100014: Plane.007_Plane.036
+    100016: Plane.008_Plane.037
+    100018: Plane.010_Plane.028
+    100020: Plane.011_Plane.039
+    100022: Plane.012_Plane.040
+    100024: Plane.013_Plane.041
+    100026: Plane.014_Plane.042
+    100028: Plane.015_Plane.043
+    100030: Plane.016_Plane.044
+    100032: Plane.017_Plane.045
+    100034: Plane.018_Plane.046
+    100036: Plane.019_Plane.047
+    100038: Plane.021_Plane.049
+    100040: Plane.022_Plane.050
+    100042: Plane.025_Plane.053
+    100044: Plane.026_Plane.054
+    100046: Plane.027_Plane.055
+    100048: Plane.028_Plane.056
+    100050: Plane.029_Plane.057
+    100052: Plane_Plane.026
+    400000: //RootNode
+    400002: Plane.001_Plane.030
+    400004: Plane.002_Plane.031
+    400006: Plane.003_Plane.032
+    400008: Plane.004_Plane.033
+    400010: Plane.005_Plane.034
+    400012: Plane.006_Plane.035
+    400014: Plane.007_Plane.036
+    400016: Plane.008_Plane.037
+    400018: Plane.010_Plane.028
+    400020: Plane.011_Plane.039
+    400022: Plane.012_Plane.040
+    400024: Plane.013_Plane.041
+    400026: Plane.014_Plane.042
+    400028: Plane.015_Plane.043
+    400030: Plane.016_Plane.044
+    400032: Plane.017_Plane.045
+    400034: Plane.018_Plane.046
+    400036: Plane.019_Plane.047
+    400038: Plane.021_Plane.049
+    400040: Plane.022_Plane.050
+    400042: Plane.025_Plane.053
+    400044: Plane.026_Plane.054
+    400046: Plane.027_Plane.055
+    400048: Plane.028_Plane.056
+    400050: Plane.029_Plane.057
+    400052: Plane_Plane.026
+    2300000: Plane.001_Plane.030
+    2300002: Plane.002_Plane.031
+    2300004: Plane.003_Plane.032
+    2300006: Plane.004_Plane.033
+    2300008: Plane.005_Plane.034
+    2300010: Plane.006_Plane.035
+    2300012: Plane.007_Plane.036
+    2300014: Plane.008_Plane.037
+    2300016: Plane.010_Plane.028
+    2300018: Plane.011_Plane.039
+    2300020: Plane.012_Plane.040
+    2300022: Plane.013_Plane.041
+    2300024: Plane.014_Plane.042
+    2300026: Plane.015_Plane.043
+    2300028: Plane.016_Plane.044
+    2300030: Plane.017_Plane.045
+    2300032: Plane.018_Plane.046
+    2300034: Plane.019_Plane.047
+    2300036: Plane.021_Plane.049
+    2300038: Plane.022_Plane.050
+    2300040: Plane.025_Plane.053
+    2300042: Plane.026_Plane.054
+    2300044: Plane.027_Plane.055
+    2300046: Plane.028_Plane.056
+    2300048: Plane.029_Plane.057
+    2300050: Plane_Plane.026
+    3300000: Plane.001_Plane.030
+    3300002: Plane.002_Plane.031
+    3300004: Plane.003_Plane.032
+    3300006: Plane.004_Plane.033
+    3300008: Plane.005_Plane.034
+    3300010: Plane.006_Plane.035
+    3300012: Plane.007_Plane.036
+    3300014: Plane.008_Plane.037
+    3300016: Plane.010_Plane.028
+    3300018: Plane.011_Plane.039
+    3300020: Plane.012_Plane.040
+    3300022: Plane.013_Plane.041
+    3300024: Plane.014_Plane.042
+    3300026: Plane.015_Plane.043
+    3300028: Plane.016_Plane.044
+    3300030: Plane.017_Plane.045
+    3300032: Plane.018_Plane.046
+    3300034: Plane.019_Plane.047
+    3300036: Plane.021_Plane.049
+    3300038: Plane.022_Plane.050
+    3300040: Plane.025_Plane.053
+    3300042: Plane.026_Plane.054
+    3300044: Plane.027_Plane.055
+    3300046: Plane.028_Plane.056
+    3300048: Plane.029_Plane.057
+    3300050: Plane_Plane.026
+    4300000: Plane.001_Plane.030
+    4300002: Plane.002_Plane.031
+    4300004: Plane.003_Plane.032
+    4300006: Plane.004_Plane.033
+    4300008: Plane.005_Plane.034
+    4300010: Plane.006_Plane.035
+    4300012: Plane.007_Plane.036
+    4300014: Plane.008_Plane.037
+    4300016: Plane.010_Plane.028
+    4300018: Plane.011_Plane.039
+    4300020: Plane.012_Plane.040
+    4300022: Plane.013_Plane.041
+    4300024: Plane.014_Plane.042
+    4300026: Plane.015_Plane.043
+    4300028: Plane.016_Plane.044
+    4300030: Plane.017_Plane.045
+    4300032: Plane.018_Plane.046
+    4300034: Plane.019_Plane.047
+    4300036: Plane.021_Plane.049
+    4300038: Plane.022_Plane.050
+    4300040: Plane.025_Plane.053
+    4300042: Plane.026_Plane.054
+    4300044: Plane.027_Plane.055
+    4300046: Plane.028_Plane.056
+    4300048: Plane.029_Plane.057
+    4300050: Plane_Plane.026
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plane.001_Plane.030Mat
+    second: {fileID: 2100000, guid: cfaf2cddd53ddbd42a07d4a734e2dbbe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plane.002_Plane.031Mat
+    second: {fileID: 2100000, guid: a194606c12fbf78449ff1731bb5cb60f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plane.003_Plane.032Mat
+    second: {fileID: 2100000, guid: f1753d6a4250a9c488b9d35875367fab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plane.004_Plane.033Mat
+    second: {fileID: 2100000, guid: 30b45d4f5e63bed4d849e5ece9f80716, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plane.005_Plane.034Mat
+    second: {fileID: 2100000, guid: f2c1a7ea19eff7244ae7d021a01707bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plane.006_Plane.035Mat
+    second: {fileID: 2100000, guid: c0d482177f5895545a75b3cfe026266b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plane.007_Plane.036Mat
+    second: {fileID: 2100000, guid: 7bf7da9976461954eb5514c47af21102, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plane.008_Plane.037Mat
+    second: {fileID: 2100000, guid: aaeb112c9c0b6a34d8234132e8082ffd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plane.010_Plane.028Mat
+    second: {fileID: 2100000, guid: a4a05d50e13a7f945888d249c9344a9e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plane.011_Plane.039Mat
+    second: {fileID: 2100000, guid: c0b19f1370c008b47afa50a0ce9477c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plane.012_Plane.040Mat
+    second: {fileID: 2100000, guid: 69f25eff562ee48438f460ae3b2d5bae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plane.013_Plane.041Mat
+    second: {fileID: 2100000, guid: 01f29a330da3b8648b599d0b104b9480, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plane.014_Plane.042Mat
+    second: {fileID: 2100000, guid: 7a5d4b3528d28374bbb37576e77a195b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plane.015_Plane.043Mat
+    second: {fileID: 2100000, guid: aeb82401126be724788905e502f8e78c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plane.016_Plane.044Mat
+    second: {fileID: 2100000, guid: f62817c686db435419aa9ec9db27f48b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plane.017_Plane.045Mat
+    second: {fileID: 2100000, guid: b535b7e699d35ef4bb36bb55863c47dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plane.018_Plane.046Mat
+    second: {fileID: 2100000, guid: 6d963200184c3d345a925a193cad05f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plane.019_Plane.047Mat
+    second: {fileID: 2100000, guid: f3bf4e987ad8ec346a44971a8e2d4a7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plane.021_Plane.049Mat
+    second: {fileID: 2100000, guid: eab0bc82769d1124e8505e1d5879ca2c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plane.022_Plane.050Mat
+    second: {fileID: 2100000, guid: 4bf0013f4f0c46a44a63603840e2911a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plane.025_Plane.053Mat
+    second: {fileID: 2100000, guid: a8b8c5a38c14c9845ab248183419a04d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plane.026_Plane.054Mat
+    second: {fileID: 2100000, guid: ff4d84816b9522c4eb6ebbcb4f20ddf2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plane.027_Plane.055Mat
+    second: {fileID: 2100000, guid: 1b2d1950065d4304386d159244d9612f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plane.028_Plane.056Mat
+    second: {fileID: 2100000, guid: d77043b02d01e8e498b62bbf098e17cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plane.029_Plane.057Mat
+    second: {fileID: 2100000, guid: ea2eb95d07cd08047be7767e3d8b3ef6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plane_Plane.026Mat
+    second: {fileID: 2100000, guid: 1aad30da23b7cf443933647fa15e8371, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
