@@ -15,4 +15,9 @@ public class PlayButtonAction : MonoBehaviour {
         SceneManager.LoadScene("Scene 1");
 
     }
+    public void ExitTheGame() {
+
+        Application.Quit();
+
+    }
 }
