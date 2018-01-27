@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/_Scene/Scene MainMenu.unity
+- path: Assets/_Scene/plage.unity
   isLoaded: 1
   isActive: 1

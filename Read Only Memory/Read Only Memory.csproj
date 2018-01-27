@@ -288,6 +288,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Assets 1\Scripts\VolumetricLight.cs" />
+    <Compile Include="Assets\Assets 1\Scripts\VolumetricLightRenderer.cs" />
+    <Compile Include="Assets\Assets 1\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsBase.cs" />
+    <Compile Include="Assets\Assets 1\Standard Assets\Effects\ImageEffects\Scripts\Tonemapping.cs" />
+    <Compile Include="Assets\LowPolyWater_Pack\Scripts\LowPolyWater.cs" />
     <Compile Include="Assets\Scripts\ChangeSceneOnClick.cs" />
     <Compile Include="Assets\Scripts\Fading.cs" />
     <Compile Include="Assets\Scripts\PlayButtonAction.cs" />
@@ -483,6 +488,13 @@
     <Compile Include="Assets\Wwise\Extensions\AkSoundEngine.extensions.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Assets 1\Shaders\BilateralBlur.shader" />
+    <None Include="Assets\Assets 1\Shaders\BlitAdd.shader" />
+    <None Include="Assets\Assets 1\Shaders\VolumetricLight.shader" />
+    <None Include="Assets\Assets 1\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
+    <None Include="Assets\LowPolyWater_Pack\LowPoly Island\Credits.txt" />
+    <None Include="Assets\LowPolyWater_Pack\Shaders\WaterShaded.shader" />
+    <None Include="Assets\ProjectSettings\ProjectVersion.txt" />
     <None Include="Assets\StreamingAssets\Audio\GeneratedSoundBanks\Mac\Init.txt" />
     <None Include="Assets\StreamingAssets\Audio\GeneratedSoundBanks\Mac\Main.txt" />
     <None Include="Assets\StreamingAssets\Audio\GeneratedSoundBanks\Mac\PluginInfo.xml" />

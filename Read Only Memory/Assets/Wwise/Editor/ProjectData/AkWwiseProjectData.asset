@@ -16,8 +16,8 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{4903314C-BBA3-49F4-BE78-4F41E2FA15CE}'
-    m_lastTimePsrt1: 2033197568
-    m_lastTimePart2: -1999280731
+    m_lastTimePsrt1: -2084212952
+    m_lastTimePart2: -1999280715
     List:
     - Name: Bird_Forest
       Path: Default Work Unit\Forest\Bird_Forest
@@ -51,29 +51,29 @@ MonoBehaviour:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{0C0A03D4-DB76-45CF-92EC-59FC30B1553D}'
-    m_lastTimePsrt1: 717707008
-    m_lastTimePart2: -1999280746
+    m_lastTimePsrt1: -2080432119
+    m_lastTimePart2: -1999280715
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{47770D41-7513-4122-A925-4A5A4E216D0B}'
-    m_lastTimePsrt1: 717707008
-    m_lastTimePart2: -1999280746
+    m_lastTimePsrt1: -2076999708
+    m_lastTimePart2: -1999280715
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{8C0603DC-4CAF-46E9-B035-ADC6625D7A0B}'
-    m_lastTimePsrt1: 717707008
-    m_lastTimePart2: -1999280746
+    m_lastTimePsrt1: -2076979681
+    m_lastTimePart2: -1999280715
     List: []
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{114E559C-8533-435D-9956-98C466BD5B50}'
-    m_lastTimePsrt1: 2033197568
-    m_lastTimePart2: -1999280731
+    m_lastTimePsrt1: -2077039741
+    m_lastTimePart2: -1999280715
     List:
     - Name: Main
       Path: Default Work Unit\Main
@@ -88,22 +88,22 @@ MonoBehaviour:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{2CEAD2DF-46FC-4AC6-BA06-2BE3EE6601EF}'
-    m_lastTimePsrt1: 717707008
-    m_lastTimePart2: -1999280746
+    m_lastTimePsrt1: -2084202947
+    m_lastTimePart2: -1999280715
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{4B6E25AB-B837-42C7-976A-9462B824E40C}'
-    m_lastTimePsrt1: 717707008
-    m_lastTimePart2: -1999280746
+    m_lastTimePsrt1: -2076969676
+    m_lastTimePart2: -1999280715
     List: []
   AcousticTextureWwu:
   - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{31349FBC-4C74-4945-93FB-836CA25BC96D}'
-    m_lastTimePsrt1: 717707008
-    m_lastTimePart2: -1999280746
+    m_lastTimePsrt1: -2076959666
+    m_lastTimePart2: -1999280715
     List: []
   ExpandedItems:
   - /Read Only Memory_WwiseProject
