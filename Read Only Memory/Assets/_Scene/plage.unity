@@ -180,7 +180,6 @@ GameObject:
   m_Component:
   - component: {fileID: 465359698}
   - component: {fileID: 465359697}
-  - component: {fileID: 465359699}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -237,31 +236,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 8.552, y: -18.353, z: 22.097}
---- !u!114 &465359699
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 465359696}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dafc90245bfe9e2408e358f71deace2a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SampleCount: 30
-  ScatteringCoef: 0.132
-  ExtinctionCoef: 0.0115
-  SkyboxExtinctionCoef: 0.925
-  MieG: 0.109
-  HeightFog: 1
-  HeightScale: 0.06
-  GroundLevel: 0
-  Noise: 0
-  NoiseScale: 0.015
-  NoiseIntensity: 1
-  NoiseIntensityOffset: 0.3
-  NoiseVelocity: {x: 3, y: 3}
-  MaxRayLength: 400
 --- !u!1001 &779125706
 Prefab:
   m_ObjectHideFlags: 0
@@ -954,7 +928,6 @@ GameObject:
   - component: {fileID: 1846523417}
   - component: {fileID: 1846523416}
   - component: {fileID: 1846523420}
-  - component: {fileID: 1846523421}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1038,19 +1011,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   turnSpeed: 4
   maxAngle: 0
---- !u!114 &1846523421
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1846523415}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1eed1d9cbe64423499f1fefc0ce50417, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Resolution: 1
-  DefaultSpotCookie: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
 --- !u!1001 &1847806347
 Prefab:
   m_ObjectHideFlags: 0
