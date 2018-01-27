@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/_Scene/Forest_Thomas.unity
+=======
+- path: Assets/_Scene/plage.unity
+>>>>>>> origin/Michel
   isLoaded: 1
   isActive: 1

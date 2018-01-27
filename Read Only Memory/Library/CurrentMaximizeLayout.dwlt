@@ -21,10 +21,17 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 731
+<<<<<<< HEAD
   m_MinSize: {x: 713, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
   controlID: 15822
+=======
+  m_MinSize: {x: 711, y: 471}
+  m_MaxSize: {x: 18006, y: 14021}
+  vertical: 0
+  controlID: 4287
+>>>>>>> origin/Michel
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -48,9 +55,16 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 589
     width: 991
     height: 213
+=======
+    y: 467
+    width: 818
+    height: 335
+  m_PersistentViewDataDictionary: {fileID: 0}
+>>>>>>> origin/Michel
   m_MaximizeOnPlay: 1
   m_Gizmos: 0
   m_Stats: 0
@@ -59,10 +73,17 @@ MonoBehaviour:
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
+<<<<<<< HEAD
     m_HBaseRangeMin: -495.5
     m_HBaseRangeMax: 495.5
     m_VBaseRangeMin: -98
     m_VBaseRangeMax: 98
+=======
+    m_HBaseRangeMin: -409
+    m_HBaseRangeMax: 409
+    m_VBaseRangeMin: -159
+    m_VBaseRangeMax: 159
+>>>>>>> origin/Michel
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -79,25 +100,43 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
+<<<<<<< HEAD
       width: 991
       height: 196
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 495.5, y: 98}
+=======
+      width: 818
+      height: 318
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 409, y: 159}
+>>>>>>> origin/Michel
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
       x: -495.5
       y: -98
       width: 991
       height: 196
+=======
+      x: -409
+      y: -159
+      width: 818
+      height: 318
+>>>>>>> origin/Michel
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
+<<<<<<< HEAD
   m_LastWindowPixelSize: {x: 991, y: 213}
+=======
+  m_LastWindowPixelSize: {x: 818, y: 335}
+>>>>>>> origin/Michel
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
@@ -119,12 +158,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 993
     height: 731
   m_MinSize: {x: 202, y: 442}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
   controlID: 15823
+=======
+    width: 820
+    height: 731
+  m_MinSize: {x: 202, y: 342}
+  m_MaxSize: {x: 4002, y: 8042}
+  vertical: 1
+  controlID: 4254
+>>>>>>> origin/Michel
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -141,17 +189,30 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 993
     height: 497
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 5}
+=======
+    width: 820
+    height: 375
+  m_MinSize: {x: 102, y: 121}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 6}
+>>>>>>> origin/Michel
   m_Panes:
   - {fileID: 5}
   - {fileID: 6}
   - {fileID: 7}
+<<<<<<< HEAD
   m_Selected: 0
   m_LastSelected: 1
+=======
+  m_Selected: 1
+  m_LastSelected: 0
+>>>>>>> origin/Michel
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -176,17 +237,31 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 92
+<<<<<<< HEAD
     width: 991
     height: 476
   m_SceneLighting: 1
   lastFramingTime: 16961.098420620972
+=======
+    width: 818
+    height: 354
+  m_PersistentViewDataDictionary: {fileID: 0}
+  m_SceneLighting: 1
+  lastFramingTime: 7871.616389977982
+>>>>>>> origin/Michel
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: 5.784175, y: -7.3608603, z: 35.500668}
     speed: 2
     m_Value: {x: 5.784175, y: -7.3608603, z: 35.500668}
+=======
+    m_Target: {x: 0, y: 0, z: 0}
+    speed: 2
+    m_Value: {x: 0, y: 0, z: 0}
+>>>>>>> origin/Michel
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -195,6 +270,10 @@ MonoBehaviour:
     showSkybox: 1
     showFlares: 1
     showImageEffects: 1
+<<<<<<< HEAD
+=======
+    showParticleSystems: 1
+>>>>>>> origin/Michel
   grid:
     xGrid:
       m_Target: 0
@@ -209,6 +288,7 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
+<<<<<<< HEAD
     m_Target: {x: -0.15411481, y: -0.03232251, z: 0.005045355, w: -0.9875112}
     speed: 2
     m_Value: {x: -0.1541148, y: -0.03232251, z: 0.0050453544, w: -0.9875112}
@@ -216,6 +296,15 @@ MonoBehaviour:
     m_Target: 28.001541
     speed: 2
     m_Value: 28.001541
+=======
+    m_Target: {x: -0.09038743, y: 0.8858603, z: -0.19466576, w: -0.4113233}
+    speed: 2
+    m_Value: {x: -0.09038743, y: 0.8858603, z: -0.19466576, w: -0.4113233}
+  m_Size:
+    m_Target: 2.8578837
+    speed: 2
+    m_Value: 2.8578837
+>>>>>>> origin/Michel
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -251,8 +340,14 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 92
+<<<<<<< HEAD
     width: 708
     height: 285
+=======
+    width: 818
+    height: 354
+  m_PersistentViewDataDictionary: {fileID: 0}
+>>>>>>> origin/Michel
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -277,8 +372,14 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 92
+<<<<<<< HEAD
     width: 928
     height: 200
+=======
+    width: 818
+    height: 354
+  m_PersistentViewDataDictionary: {fileID: 0}
+>>>>>>> origin/Michel
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -294,9 +395,15 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 497
     width: 993
     height: 234
+=======
+    y: 375
+    width: 820
+    height: 356
+>>>>>>> origin/Michel
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 2}
@@ -320,6 +427,7 @@ MonoBehaviour:
   - {fileID: 12}
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 993
     y: 0
     width: 234
@@ -328,6 +436,16 @@ MonoBehaviour:
   m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
   controlID: 15789
+=======
+    x: 820
+    y: 0
+    width: 260
+    height: 731
+  m_MinSize: {x: 234, y: 471}
+  m_MaxSize: {x: 10004, y: 14021}
+  vertical: 1
+  controlID: 4226
+>>>>>>> origin/Michel
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -344,8 +462,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 234
     height: 454
+=======
+    width: 260
+    height: 460
+>>>>>>> origin/Michel
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 11}
@@ -375,6 +498,7 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 995
     y: 92
     width: 230
@@ -384,6 +508,18 @@ MonoBehaviour:
     m_SelectedIDs: 944ffbff
     m_LastClickedID: -307308
     m_ExpandedIDs: a24ffbffa802fcff665ffcff10a9fcff02adfcfff0aefcff4aaffcff8e56fdff660cffff0ad7ffffe0daffff34fbffff00000000cce10000
+=======
+    x: 822
+    y: 92
+    width: 256
+    height: 439
+  m_PersistentViewDataDictionary: {fileID: 0}
+  m_TreeViewState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: ac320000
+    m_LastClickedID: 12972
+    m_ExpandedIDs: 88fffeff140dffffe00dffff7217ffffc622ffff442dffff8834ffffaa35ffffdc37ffffde39ffff2a53fffffa55ffffca5bffff025dffff9ee5ffff98fbffff00000000
+>>>>>>> origin/Michel
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -402,7 +538,11 @@ MonoBehaviour:
       m_ClientGUIView: {fileID: 10}
     m_SearchString: 
   m_ExpandedScenes:
+<<<<<<< HEAD
   - Forest_Thomas
+=======
+  - Scene 1
+>>>>>>> origin/Michel
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -421,11 +561,19 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 454
     width: 234
     height: 277
   m_MinSize: {x: 234, y: 271}
   m_MaxSize: {x: 10004, y: 10021}
+=======
+    y: 460
+    width: 260
+    height: 271
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
+>>>>>>> origin/Michel
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -453,10 +601,18 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 995
     y: 546
     width: 230
     height: 256
+=======
+    x: 822
+    y: 552
+    width: 256
+    height: 250
+  m_PersistentViewDataDictionary: {fileID: 0}
+>>>>>>> origin/Michel
   m_SearchFilter:
     m_NameFilter: 
     m_ClassNames: []
@@ -469,19 +625,31 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
+<<<<<<< HEAD
     - Assets/Models/Nature
+=======
+    - Assets/Scripts
+>>>>>>> origin/Michel
   m_ViewMode: 0
   m_StartGridSize: 16
   m_LastFolders: []
   m_LastFoldersGridSize: 16
+<<<<<<< HEAD
   m_LastProjectPath: D:\GameDev\Unity\UnityProjects\GGJ2018\Read-Only-Memory\Read
     Only Memory
+=======
+  m_LastProjectPath: "C:\\Users\\Lo\xEFc\\Documents\\Read Only Memory\\Read Only Memory"
+>>>>>>> origin/Michel
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 10290000
     m_LastClickedID: 10512
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000c82d0000382e00007a2e0000882e0000da2e0000162f00009c2f000002330000423400007e340000d2340000de350000e2350000a6360000ba360000543700001638000062380000bc3800007e390000543a0000ac3a0000ae3a0000aa3f0000ac3f000050200100
+=======
+    m_ExpandedIDs: 6427000042290000a22a0000
+>>>>>>> origin/Michel
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -506,10 +674,17 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 414}
     m_SelectedIDs: 944ffbff
     m_LastClickedID: 0
     m_ExpandedIDs: 00000000c82d0000382e00007a2e0000882e0000da2e0000162f00009c2f000002330000423400007e340000d2340000de350000e2350000a6360000ba360000543700001638000062380000bc3800007e390000543a0000ac3a0000ae3a0000aa3f0000ac3f000050200100
+=======
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: ac320000
+    m_LastClickedID: 0
+    m_ExpandedIDs: 6427000042290000a22a0000
+>>>>>>> origin/Michel
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -534,8 +709,13 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
+<<<<<<< HEAD
     m_SelectedInstanceIDs: 944ffbff
     m_LastClickedInstanceID: -307308
+=======
+    m_SelectedInstanceIDs: ac320000
+    m_LastClickedInstanceID: 12972
+>>>>>>> origin/Michel
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 
     m_RenameOverlay:
@@ -553,7 +733,11 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
+<<<<<<< HEAD
       m_ClientGUIView: {fileID: 12}
+=======
+      m_ClientGUIView: {fileID: 0}
+>>>>>>> origin/Michel
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -578,17 +762,29 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1227
     y: 0
     width: 309
     height: 731
   m_MinSize: {x: 277, y: 71}
   m_MaxSize: {x: 4002, y: 4021}
+=======
+    x: 1080
+    y: 0
+    width: 456
+    height: 731
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+>>>>>>> origin/Michel
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
   - {fileID: 16}
+<<<<<<< HEAD
   - {fileID: 17}
+=======
+>>>>>>> origin/Michel
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &15
@@ -613,6 +809,7 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1229
     y: 92
     width: 307
@@ -621,6 +818,17 @@ MonoBehaviour:
   m_InspectorMode: 0
   m_PreviewResizer:
     m_CachedPref: 160
+=======
+    x: 1082
+    y: 92
+    width: 454
+    height: 710
+  m_PersistentViewDataDictionary: {fileID: 0}
+  m_ScrollPosition: {x: 0, y: 0}
+  m_InspectorMode: 0
+  m_PreviewResizer:
+    m_CachedPref: -160
+>>>>>>> origin/Michel
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
@@ -632,6 +840,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
+<<<<<<< HEAD
   m_Script: {fileID: 12079, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -658,6 +867,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
+=======
+>>>>>>> origin/Michel
   m_Script: {fileID: 12157, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -671,10 +882,18 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1259
     y: 92
     width: 277
     height: 710
+=======
+    x: 1082
+    y: 92
+    width: 454
+    height: 710
+  m_PersistentViewDataDictionary: {fileID: 0}
+>>>>>>> origin/Michel
   m_InitialOpenURL: https://public-cdn.cloud.unity3d.com/editor/production/cloud/hub
   m_GlobalObjectTypeName: 
   m_RegisteredViewURLs:
