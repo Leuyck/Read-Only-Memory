@@ -1,16 +1,42 @@
 fileFormatVersion: 2
-guid: 23cd8f088f85d5644a9d69a861266ed3
-timeCreated: 1517092305
+guid: 3f77ae7d56a449744a4a2e317baac0a0
+timeCreated: 1517094590
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
+    100002: Ford_Explorer_2016
+    100004: Ford_Explorer_2017
+    100006: Ford_Explorer_2018
+    100008: Ford_Explorer_2019
+    100010: Ford_Explorer_2020
     400000: //RootNode
-    2100000: Ford_Explorer_2016
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: Ford_Explorer_2016
+    400002: Ford_Explorer_2016
+    400004: Ford_Explorer_2017
+    400006: Ford_Explorer_2018
+    400008: Ford_Explorer_2019
+    400010: Ford_Explorer_2020
+    2100000: Ford_Explorer_2020
+    2100002: Ford_Explorer_2019
+    2100004: Ford_Explorer_2018
+    2100006: Ford_Explorer_2017
+    2100008: Ford_Explorer_2016
+    2300000: Ford_Explorer_2016
+    2300002: Ford_Explorer_2017
+    2300004: Ford_Explorer_2018
+    2300006: Ford_Explorer_2019
+    2300008: Ford_Explorer_2020
+    3300000: Ford_Explorer_2016
+    3300002: Ford_Explorer_2017
+    3300004: Ford_Explorer_2018
+    3300006: Ford_Explorer_2019
+    3300008: Ford_Explorer_2020
+    4300000: Ford_Explorer_2020
+    4300002: Ford_Explorer_2019
+    4300004: Ford_Explorer_2018
+    4300006: Ford_Explorer_2017
+    4300008: Ford_Explorer_2016
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -62,8 +88,8 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
   tangentSpace:
-    normalSmoothAngle: 60
-    normalImportMode: 0
+    normalSmoothAngle: 0
+    normalImportMode: 1
     tangentImportMode: 3
     normalCalculationMode: 4
   importAnimation: 1

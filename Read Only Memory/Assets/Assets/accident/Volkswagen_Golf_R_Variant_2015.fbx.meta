@@ -1,16 +1,42 @@
 fileFormatVersion: 2
-guid: 3b462b7dee838524b9f1c8e826483739
-timeCreated: 1517092305
+guid: 6fbae79b39d96e8409708fea0b0a350f
+timeCreated: 1517094591
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
-    2100000: Volkswagen_Golf_R_Variant_2015
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: Volkswagen_Golf_R_Variant_2015
+    100000: pantera
+    100002: pantera1
+    100004: pantera2
+    100006: pantera3
+    100008: pantera4
+    100010: //RootNode
+    400000: pantera
+    400002: pantera1
+    400004: pantera2
+    400006: pantera3
+    400008: pantera4
+    400010: //RootNode
+    2100000: pantera4
+    2100002: pantera3
+    2100004: pantera2
+    2100006: pantera1
+    2100008: pantera
+    2300000: pantera
+    2300002: pantera1
+    2300004: pantera2
+    2300006: pantera3
+    2300008: pantera4
+    3300000: pantera
+    3300002: pantera1
+    3300004: pantera2
+    3300006: pantera3
+    3300008: pantera4
+    4300000: pantera4
+    4300002: pantera3
+    4300004: pantera2
+    4300006: pantera1
+    4300008: pantera
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -62,8 +88,8 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
   tangentSpace:
-    normalSmoothAngle: 60
-    normalImportMode: 0
+    normalSmoothAngle: 0
+    normalImportMode: 1
     tangentImportMode: 3
     normalCalculationMode: 4
   importAnimation: 1
